@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Scoreboard</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid gray;
+      padding: 10px;
+      text-align: center;
+    }
+    thead {
+      background-color: #333;
+      color: white;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tbody tr:hover {
+      background-color: rgb(248, 106, 196);
+        color: white;
+        cursor: pointer;
+    }
+    thead th:hover {
+        background-color: #02650c;
+        cursor: pointer;
+    }  
+    </style>
+</head>
+<body>
+
+  <h2>Student Scoreboard</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Score</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dhivya</td><td>Math</td><td>95</td><td>Pass</td>
+      </tr>
+      <tr>
+        <td>Dheeyal</td><td>Science</td><td>88</td><td>Pass</td>
+      </tr>
+      <tr>
+        <td>Dharshini</td><td>Geography</td><td>76</td><td>Pass</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
